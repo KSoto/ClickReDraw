@@ -14,13 +14,13 @@
 		3601C34316015099001D51EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3601C34216015099001D51EC /* main.m */; };
 		3601C34716015099001D51EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3601C34616015099001D51EC /* AppDelegate.m */; };
 		3601C34A16015099001D51EC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601C34816015099001D51EC /* MainStoryboard_iPhone.storyboard */; };
-		3601C34D16015099001D51EC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601C34B16015099001D51EC /* MainStoryboard_iPad.storyboard */; };
 		3601C35016015099001D51EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3601C34F16015099001D51EC /* ViewController.m */; };
 		3601C35816015099001D51EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3601C35716015099001D51EC /* SenTestingKit.framework */; };
 		3601C35916015099001D51EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3601C33616015099001D51EC /* UIKit.framework */; };
 		3601C35A16015099001D51EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3601C33816015099001D51EC /* Foundation.framework */; };
 		3601C36216015099001D51EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3601C36016015099001D51EC /* InfoPlist.strings */; };
 		3601C36516015099001D51EC /* ClickReDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3601C36416015099001D51EC /* ClickReDrawTests.m */; };
+		3601C37016015144001D51EC /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3601C36F16015144001D51EC /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +38,23 @@
 		3601C33616015099001D51EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3601C33816015099001D51EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3601C33A16015099001D51EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3601C33E16015099001D51EC /* ClickReDraw-Info.plist */ = {isa = PBXFileReference; path = "ClickReDraw-Info.plist"; sourceTree = "<group>"; };
+		3601C33E16015099001D51EC /* ClickReDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickReDraw-Info.plist"; sourceTree = "<group>"; };
 		3601C34016015099001D51EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3601C34216015099001D51EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3601C34416015099001D51EC /* ClickReDraw-Prefix.pch */ = {isa = PBXFileReference; path = "ClickReDraw-Prefix.pch"; sourceTree = "<group>"; };
-		3601C34516015099001D51EC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3601C34416015099001D51EC /* ClickReDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClickReDraw-Prefix.pch"; sourceTree = "<group>"; };
+		3601C34516015099001D51EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3601C34616015099001D51EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3601C34916015099001D51EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		3601C34C16015099001D51EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3601C34E16015099001D51EC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3601C34E16015099001D51EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3601C34F16015099001D51EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3601C35616015099001D51EC /* ClickReDrawTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickReDrawTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3601C35716015099001D51EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3601C35F16015099001D51EC /* ClickReDrawTests-Info.plist */ = {isa = PBXFileReference; path = "ClickReDrawTests-Info.plist"; sourceTree = "<group>"; };
+		3601C35F16015099001D51EC /* ClickReDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickReDrawTests-Info.plist"; sourceTree = "<group>"; };
 		3601C36116015099001D51EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3601C36316015099001D51EC /* ClickReDrawTests.h */ = {isa = PBXFileReference; path = ClickReDrawTests.h; sourceTree = "<group>"; };
+		3601C36316015099001D51EC /* ClickReDrawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickReDrawTests.h; sourceTree = "<group>"; };
 		3601C36416015099001D51EC /* ClickReDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickReDrawTests.m; sourceTree = "<group>"; };
+		3601C36E16015144001D51EC /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		3601C36F16015144001D51EC /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +117,8 @@
 				3601C34516015099001D51EC /* AppDelegate.h */,
 				3601C34616015099001D51EC /* AppDelegate.m */,
 				3601C34816015099001D51EC /* MainStoryboard_iPhone.storyboard */,
-				3601C34B16015099001D51EC /* MainStoryboard_iPad.storyboard */,
+				3601C36E16015144001D51EC /* MyView.h */,
+				3601C36F16015144001D51EC /* MyView.m */,
 				3601C34E16015099001D51EC /* ViewController.h */,
 				3601C34F16015099001D51EC /* ViewController.m */,
 				3601C33D16015099001D51EC /* Supporting Files */,
@@ -226,7 +228,6 @@
 			files = (
 				3601C34116015099001D51EC /* InfoPlist.strings in Resources */,
 				3601C34A16015099001D51EC /* MainStoryboard_iPhone.storyboard in Resources */,
-				3601C34D16015099001D51EC /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +265,7 @@
 				3601C34316015099001D51EC /* main.m in Sources */,
 				3601C34716015099001D51EC /* AppDelegate.m in Sources */,
 				3601C35016015099001D51EC /* ViewController.m in Sources */,
+				3601C37016015144001D51EC /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +302,6 @@
 				3601C34916015099001D51EC /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		3601C34B16015099001D51EC /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3601C34C16015099001D51EC /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		3601C36016015099001D51EC /* InfoPlist.strings */ = {

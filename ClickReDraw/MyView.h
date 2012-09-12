@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyView.h
 //  ClickReDraw
 //
 //  Created by CS User on 9/12/12.
@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "MyView.h"
 
-@interface ViewController : UIViewController
+@interface MyView : UIView
 {
-    IBOutlet MyView *_myView;
+    BOOL _isOn;
 }
-@property (nonatomic, retain) MyView* myView;
 
--(IBAction)clicked:(id)sender;
+@property (assign) BOOL isOn;
+
+- (void)drawRect:(CGRect)rect;
 
 @end

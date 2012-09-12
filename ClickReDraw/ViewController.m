@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyView.h"
 
 @interface ViewController ()
 
@@ -14,6 +15,20 @@
 
 @implementation ViewController
 
+@synthesize myView = _myView;
+
+-(IBAction)clicked:(id)sender
+{
+    if(self.myView.isOn)
+    {
+        
+    }
+    NSLog(@"here");
+    //state has changed, screen needs to be redrawn
+    //when they push the button, screen needs to be redrawn
+    //[ self.myView.setNeedsDisplay ];
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
